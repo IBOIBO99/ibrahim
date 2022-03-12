@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/ibrahim
+cd $HOME/DRAGON
 install() {
 rm -rf $HOME/.telegram-cli
 sudo apt-get update -y
@@ -20,8 +20,8 @@ sudo apt-get install lua-lgi -y
 sudo apt-get install libnotify-dev -y
 sudo chmod +x tg
 lua DRAGON.lua
-sudo chmod +x ibrahim
-sudo chmod +x ibrahim
+sudo chmod +x DRAGON
+sudo chmod +x DRAGON
 
 }
 if [ "$1" = "install" ]; then
@@ -33,7 +33,7 @@ exit 1
 fi
 sudo chmod +x tg
 lua DRAGON.lua
-sudo chmod +x ibrahim
-sudo chmod +x ibrahim
+sudo chmod +x DRAGON
+sudo chmod +x DRAGON
 
 fi
